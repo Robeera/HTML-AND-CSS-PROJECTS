@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
         <title>The Pet Shop</title>
+        <link rel="icon" type="image/x-icon" href="\Users\bedas\Downloads\favicon.ico">
         <meta charset="UTF-8">
         <meta name="description" content="Displaying pet images and videos">
-
+        <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!--NAVBAR-->
-    <nav>
-        <ul>
+    <nav class="nav-bar">
+        <ul id="nav-border">
             <li><a href="Index.html">HOME</a></li>
             <li><a href="contact.html">CONTACT</a></li>
 
@@ -26,36 +27,48 @@
     <!--HEADER-->
     <header>
         <div>
-            <h1>Welcome to The Pet Shop!</h1>
+            <h1 class="animate-text">Welcome to The Pet Shop!</h1>
         </div>
     </header>
      <!--Blockquote-->
     <blockquote cite="https://northcoastpets.com">
         Because You Love Pets Like We Love Pets
     </blockquote>
-    <!--Section-->
+    <!--Images Section-->
     <section>
-        <div>
+        <div class="container">
             <h2>Choose a Pet!</h2>
             <div>
                 <!--Cat Image-->
-                <div id="Cats">
-                    <h3>Cat & Kitten</h3>
-                    <img src="images/Cats.jpg" alt="Picture of Kittens">
+                <div id="Cats" class="column">
+                    <div class="image-container">
+                        <h3>Cat & Kitten</h3>
+                        <img src="images/Cats.jpg" alt="Picture of Kittens">
+                        <div class="overlay"></div>
+                    </div>
                 </div>
                 <!--Dog Image-->
-                <div id="Dog and Cat">
-                    <h3>Dog & Cat</h3>
-                    <img src="images/Dog and Cat.jpg" alt="Picture of Puppies">
+                <div id="Dog-and-Cat" class="column">
+                    <div class="image-container">
+                        <h3>Dog & Cat</h3>
+                        <img src="images/Dog and Cat.jpg" alt="Picture of Puppies">
+                         <div class="overlay"></div>
+                    </div>
                 </div>
                   <!--Pets-->
-                <div id="Pets">
-                    <h3>Pets</h3>
-                    <img src="images/Pets.jpg" alt="Picture of various pets">
+                <div id="Pets" class="column">
+                    <div class="image-container">
+                        <h3>Pets</h3>
+                        <img src="images/Pets.jpg" alt="Picture of various pets">
+                        <div class="overlay"></div>
+                    </div>
                 </div>
-              <div id="Pets 2">
-                <h3>Pets 2</h3>
-                <img src="images/Pets 2.jpg" alt="Picture of various pets">
+              <div id="Pets-2" class="column">
+                <div class="image-container">
+                  <h3>Pets 2</h3>
+                  <img src="images/Pets 2.jpg" alt="Picture of various pets">
+                  <div class="overlay"></div>
+                </div>
               </div>
             </div>
         </div>
@@ -63,7 +76,7 @@
     <!--Videos-->
     <section>
         <!--Dog Video-->
-        <div id="Videos">
+        <div id="Video" class="container">
             <h3>Videos</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/A_5CHGoAgz8?si=d87zn64Yoe91J2ig" title="YouTube video player" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>

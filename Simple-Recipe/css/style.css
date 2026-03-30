@@ -242,7 +242,7 @@ p {
 /*Sets margin left to 0 because it is not needed on a 
 small screen and centers the text*/
 @media screen and (max-width: 1200px) {
-    #featured-mai-text {
+    #featured-main-text {
         margin-left: 0;
     }
 }
@@ -251,8 +251,9 @@ small screen and centers the text*/
     #featured img {
         width: 700px;
         height: auto;
-        margin-left: -100px;
-        margin-top: -200px;
+        margin-left: -90px;
+        margin-top: -30px;
+        
     }
 }
 
